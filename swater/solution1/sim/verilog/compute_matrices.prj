@@ -1,0 +1,12 @@
+sv work "glbl.v"
+sv xil_defaultlib "AESL_axi_master_gmem0.v"
+sv xil_defaultlib "AESL_axi_master_gmem1.v"
+sv xil_defaultlib "AESL_axi_slave_control.v"
+sv xil_defaultlib "compute_matrices.autotb.v"
+sv xil_defaultlib "compute_matrices.v"
+sv xil_defaultlib "compute_matrices_bkb.v"
+sv xil_defaultlib "compute_matrices_control_s_axi.v"
+sv xil_defaultlib "compute_matrices_cud.v"
+sv xil_defaultlib "compute_matrices_gmem0_m_axi.v"
+sv xil_defaultlib "compute_matrices_gmem1_m_axi.v"
+

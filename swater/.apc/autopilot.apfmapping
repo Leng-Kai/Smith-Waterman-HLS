@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="swater.cpp" path="C:\Users\lin\Desktop\swater\swater_4\swater.cpp"/>
+    <originFiles name="swater.h" path="C:\Users\lin\Desktop\swater\swater_4\swater.h"/>
+  </source>
+  <testbench>
+    <originFiles name="testbench.cpp" path="C:\Users\lin\Desktop\swater\swater_4\testbench.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,910 @@
+>> Start test!
+------------------------
+str1: CCGAGAAGCGGAGGTGGGCGTCAGAGGCTAC
+str2: ACCTCATCACACATTAACGTGGCCTCCTAGCCAGCCGCGCACCACTGGTCAAGTTACATACCCCATGTTATTGACCTCGCAACTCAGGACCGAACGGCCCCACGTTCGTCCTACAGGTGCTGCGTCAACCGAGAAGCGGAGGTGGGCGTCAGAGGCTAC
+direction: 2
+------------------------
+str1: TCATGAGAGAGGGAAGGAACTCCCTAATGCG
+str2: CACCTCGATTCCAGCCGCGCACCACTCCTCGGTCAAGTTACATACCCCATGTTATTGAGCAACTCAGGACCGAATGGTCATACCACAGAGGCTACATAATAATGAACCTGGCTAGTCTACAGCTACTTTCATGAGAGAGGGAAGGAACTCCCTAATGCG
+direction: 0
+------------------------
+str1: GCCATACTTACCCACGCGGCCAGTCCCGCTA
+str2: AGTTCCGCTACTTGCACTCCCTAATGCGGTACCAGCCGCGCACCACTCCTCGCAACTCGGTCAAGTTACATACCCCATGTTATTGAAGGACCGAACTACCAGAGCTTAGACTCAGAGTGAGGAACAATGCCATACTTACCCACGCGGCCAGTCCCGCTA
+direction: 2
+------------------------
+str1: AGGACCGAAATCGAAATGGCTGGGATAAATC
+str2: GTTTACTAATGGTCCGGCCAGTCCCGCTATTAGGACGGGGGTCAAGTTACATACCCCATGTTATTGATCGCTTGTACCGGGTGCCGGGGGCTATGTAACGACCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAAATCGAAATGGCTGGGATAAATC
+direction: 2
+------------------------
+str1: TTGGGCCACCCGCATGGCGGGTGCGCATGCC
+str2: CCAGGCTAGGAAGTGATAATAACTACTTGCACTCCCTAATGCTCTCAAACTGCCCAGCCGCGCACCACTCCTCGCAACTCAGGAGGTCAAGTTACATACCCCATGTTATTGATCGCTTAATCAGAGGATTGGGCCACCCGCATGGCGGGTGCGCATGCC
+direction: 1
+------------------------
+str1: CCATGTTATTGATCGCTAAACAGCAAAGTCC
+str2: AAACCCTCGTTCCACGTGCGCATGCCACCTCGGGTCCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAAGTTGGCCAGTCCCAATTGGTCTGTCGTGCTCCGCTTGGTGGGTCAAGTTACATACCCCATGTTATTGATCGCTAAACAGCAAAGTCC
+direction: 1
+------------------------
+str1: GCGCACCACTCCTCGCAACTCAGGACCGAAC
+str2: GCAGTAAATGAAAGGGCTGGGATAAATCGGTCAAGTTACATACCCCATGTTATTGATCGCTAACTGAGAAAGAGCCCCGCCGGATGATACTAAGCCATGGTTCATCACACATTAACCTGCGTCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAAC
+direction: 1
+------------------------
+str1: AGTCACCACAACGGGCGGCCATAATAACCTT
+str2: TCTCTGACAAAACGTTCTCAGTGCGTCCCAGCCGCGCACCACTCCTCGCAACTCAGGGTCAAGTTACATACCCCATGTTATTGATCGCTAACTGGACTAGGTCAAGTTGGCTATCGTAGCTTGTGACCAGTCACCACAACGGGCGGCCATAATAACCTT
+direction: 1
+------------------------
+str1: GCATTTATATGCATGCGAGACTGGGGAGACT
+str2: AGCATTTGAGCAATGAAAGGGCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAACTGGGTGGTCTGTCGTATGTTATTTCGGTCAAGTTACATACCCCATGTTATTGATCGCTTACGAGTTGGGGGCATTTATATGCATGCGAGACTGGGGAGACT
+direction: 2
+------------------------
+str1: CATGTTATTGATCGCTGCAGTTGCCAACGTG
+str2: GATAAAGCAACCCTTAAGGACCAGCCGCGCACCACTCCTCGCAATCCCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAATACGCCGGTAACGATACGGTTGGTTCGCGGTCAAGTTACATACCCCATGTTATTGATCGCTGCAGTTGCCAACGTG
+direction: 2
+------------------------
+>> Test passed!
+------------------------
+
+C:\WorkZone\ZedBoard\swater_4\solution1\sim\verilog>set PATH= 
+
+C:\WorkZone\ZedBoard\swater_4\solution1\sim\verilog>call C:/Xilinx/Vivado/2020.1/bin/xelab xil_defaultlib.apatb_compute_matrices_top glbl -prj compute_matrices.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile "C:/Xilinx/Vivado/2020.1/data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s compute_matrices -debug wave 
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2020.1/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_compute_matrices_top glbl -prj compute_matrices.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile C:/Xilinx/Vivado/2020.1/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s compute_matrices -debug wave 
+Multi-threading is on. Using 6 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/AESL_axi_master_gmem0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_gmem0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/AESL_axi_master_gmem1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_gmem1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/AESL_axi_slave_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_compute_matrices_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices_bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices_bkb_ram
+INFO: [VRFC 10-311] analyzing module compute_matrices_bkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices_control_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices_cud.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices_cud
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices_gmem0_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_read
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_write
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices_gmem1_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_read
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_write
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.compute_matrices_control_s_axi
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_thr...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_reg...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_buf...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_wri...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_buf...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_reg...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_rea...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi(NUM...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_thr...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_reg...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_buf...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_wri...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_buf...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_reg...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_rea...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi(NUM...
+Compiling module xil_defaultlib.compute_matrices_bkb_ram
+Compiling module xil_defaultlib.compute_matrices_bkb(DataWidth=6...
+Compiling module xil_defaultlib.compute_matrices_cud(ID=1,din64_...
+Compiling module xil_defaultlib.compute_matrices
+Compiling module xil_defaultlib.AESL_axi_master_gmem0
+Compiling module xil_defaultlib.AESL_axi_master_gmem1
+Compiling module xil_defaultlib.AESL_axi_slave_control
+Compiling module xil_defaultlib.apatb_compute_matrices_top
+Compiling module work.glbl
+Built simulation snapshot compute_matrices
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/xsim.dir/compute_matrices/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/xsim.dir/compute_matrices/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 11 02:30:49 2021. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 11 02:30:49 2021...
+
+****** xsim v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/compute_matrices/xsim_script.tcl
+# xsim {compute_matrices} -autoloadwcfg -tclbatch {compute_matrices.tcl}
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source compute_matrices.tcl
+## log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set cinoutgroup [add_wave_group "C InOuts" -into $designtopgroup]
+## set string1_g_V__string2_g_V__direction_matrix_g_V__return_group [add_wave_group string1_g_V__string2_g_V__direction_matrix_g_V__return(axi_slave) -into $cinoutgroup]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/interrupt -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_BRESP -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_BREADY -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_BVALID -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_RRESP -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_RDATA -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_RREADY -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_RVALID -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_ARREADY -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_ARVALID -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_ARADDR -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_WSTRB -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_WDATA -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_WREADY -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_WVALID -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_AWREADY -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_AWVALID -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_AWADDR -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set direction_matrix_g_group [add_wave_group direction_matrix_g(axi_master) -into $coutputgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $direction_matrix_g_group]
+## set wdata_group [add_wave_group "Write Channel" -into $direction_matrix_g_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $direction_matrix_g_group]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_BUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_BID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_BRESP -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_BREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_BVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RRESP -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RDATA -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARREGION -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARQOS -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARPROT -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARCACHE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARLOCK -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARBURST -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARSIZE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARLEN -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARADDR -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WSTRB -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WDATA -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWREGION -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWQOS -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWPROT -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWCACHE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWLOCK -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWBURST -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWSIZE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWLEN -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWADDR -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWVALID -into $ctrl_group -color #ffff00 -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set string1_g__string2_g_group [add_wave_group string1_g__string2_g(axi_master) -into $cinputgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $string1_g__string2_g_group]
+## set wdata_group [add_wave_group "Write Channel" -into $string1_g__string2_g_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $string1_g__string2_g_group]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_BUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_BID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_BRESP -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_BREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_BVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RRESP -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RDATA -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARREGION -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARQOS -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARPROT -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARCACHE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARLOCK -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARBURST -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARSIZE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARLEN -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARADDR -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WSTRB -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WDATA -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWREGION -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWQOS -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWPROT -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWCACHE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWLOCK -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWBURST -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWSIZE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWLEN -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWADDR -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWVALID -into $ctrl_group -color #ffff00 -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake(internal)" -into $designtopgroup]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_done -into $blocksiggroup
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_idle -into $blocksiggroup
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_ready -into $blocksiggroup
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_start -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_rst_n -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_compute_matrices_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_compute_matrices_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_compute_matrices_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_compute_matrices_top/LENGTH_gmem0 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_compute_matrices_top/LENGTH_gmem1 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_compute_matrices_top/LENGTH_string1_g_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_compute_matrices_top/LENGTH_string2_g_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_compute_matrices_top/LENGTH_direction_matrix_g_V -into $tb_portdepth_group -radix hex
+## set tbcinoutgroup [add_wave_group "C InOuts" -into $testbenchgroup]
+## set tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group [add_wave_group string1_g_V__string2_g_V__direction_matrix_g_V__return(axi_slave) -into $tbcinoutgroup]
+## add_wave /apatb_compute_matrices_top/control_INTERRUPT -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_BRESP -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_BREADY -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_BVALID -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_RRESP -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_RDATA -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_RREADY -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_RVALID -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_ARREADY -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_ARVALID -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_ARADDR -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_WSTRB -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_WDATA -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_WREADY -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_WVALID -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_AWREADY -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_AWVALID -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_AWADDR -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## set tbcoutputgroup [add_wave_group "C Outputs" -into $testbenchgroup]
+## set tb_direction_matrix_g_group [add_wave_group direction_matrix_g(axi_master) -into $tbcoutputgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $tb_direction_matrix_g_group]
+## set wdata_group [add_wave_group "Write Channel" -into $tb_direction_matrix_g_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $tb_direction_matrix_g_group]
+## add_wave /apatb_compute_matrices_top/gmem1_BUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_BID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_BRESP -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_BREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_BVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RRESP -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RDATA -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARREGION -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARQOS -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARPROT -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARCACHE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARLOCK -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARBURST -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARSIZE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARLEN -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARADDR -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WSTRB -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WDATA -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWREGION -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWQOS -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWPROT -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWCACHE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWLOCK -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWBURST -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWSIZE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWLEN -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWADDR -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWVALID -into $ctrl_group -color #ffff00 -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_string1_g__string2_g_group [add_wave_group string1_g__string2_g(axi_master) -into $tbcinputgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $tb_string1_g__string2_g_group]
+## set wdata_group [add_wave_group "Write Channel" -into $tb_string1_g__string2_g_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $tb_string1_g__string2_g_group]
+## add_wave /apatb_compute_matrices_top/gmem0_BUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_BID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_BRESP -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_BREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_BVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RRESP -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RDATA -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARREGION -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARQOS -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARPROT -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARCACHE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARLOCK -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARBURST -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARSIZE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARLEN -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARADDR -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WSTRB -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WDATA -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWREGION -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWQOS -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWPROT -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWCACHE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWLOCK -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWBURST -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWSIZE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWLEN -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWADDR -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWVALID -into $ctrl_group -color #ffff00 -radix hex
+## save_wave_config compute_matrices.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 10 [0.00%] @ "125000"
+C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/AESL_axi_master_gmem1.v: Write request address         16 exceed AXI master gmem1 array depth:          1
+$finish called at time : 1465 ns : File "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/AESL_axi_master_gmem1.v" Line 506
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue May 11 02:30:59 2021...
+>> Start test!
+------------------------
+str1: CCGAGAAGCGGAGGTGGGCGTCAGAGGCTAC
+str2: ACCTCATCACACATTAACGTGGCCTCCTAGCCAGCCGCGCACCACTGGTCAAGTTACATACCCCATGTTATTGACCTCGCAACTCAGGACCGAACGGCCCCACGTTCGTCCTACAGGTGCTGCGTCAACCGAGAAGCGGAGGTGGGCGTCAGAGGCTAC
+direction: 2
+------------------------
+str1: TCATGAGAGAGGGAAGGAACTCCCTAATGCG
+str2: CACCTCGATTCCAGCCGCGCACCACTCCTCGGTCAAGTTACATACCCCATGTTATTGAGCAACTCAGGACCGAATGGTCATACCACAGAGGCTACATAATAATGAACCTGGCTAGTCTACAGCTACTTTCATGAGAGAGGGAAGGAACTCCCTAATGCG
+direction: 0
+------------------------
+str1: GCCATACTTACCCACGCGGCCAGTCCCGCTA
+str2: AGTTCCGCTACTTGCACTCCCTAATGCGGTACCAGCCGCGCACCACTCCTCGCAACTCGGTCAAGTTACATACCCCATGTTATTGAAGGACCGAACTACCAGAGCTTAGACTCAGAGTGAGGAACAATGCCATACTTACCCACGCGGCCAGTCCCGCTA
+direction: 2
+------------------------
+str1: AGGACCGAAATCGAAATGGCTGGGATAAATC
+str2: GTTTACTAATGGTCCGGCCAGTCCCGCTATTAGGACGGGGGTCAAGTTACATACCCCATGTTATTGATCGCTTGTACCGGGTGCCGGGGGCTATGTAACGACCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAAATCGAAATGGCTGGGATAAATC
+direction: 2
+------------------------
+str1: TTGGGCCACCCGCATGGCGGGTGCGCATGCC
+str2: CCAGGCTAGGAAGTGATAATAACTACTTGCACTCCCTAATGCTCTCAAACTGCCCAGCCGCGCACCACTCCTCGCAACTCAGGAGGTCAAGTTACATACCCCATGTTATTGATCGCTTAATCAGAGGATTGGGCCACCCGCATGGCGGGTGCGCATGCC
+direction: 1
+------------------------
+str1: CCATGTTATTGATCGCTAAACAGCAAAGTCC
+str2: AAACCCTCGTTCCACGTGCGCATGCCACCTCGGGTCCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAAGTTGGCCAGTCCCAATTGGTCTGTCGTGCTCCGCTTGGTGGGTCAAGTTACATACCCCATGTTATTGATCGCTAAACAGCAAAGTCC
+direction: 1
+------------------------
+str1: GCGCACCACTCCTCGCAACTCAGGACCGAAC
+str2: GCAGTAAATGAAAGGGCTGGGATAAATCGGTCAAGTTACATACCCCATGTTATTGATCGCTAACTGAGAAAGAGCCCCGCCGGATGATACTAAGCCATGGTTCATCACACATTAACCTGCGTCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAAC
+direction: 1
+------------------------
+str1: AGTCACCACAACGGGCGGCCATAATAACCTT
+str2: TCTCTGACAAAACGTTCTCAGTGCGTCCCAGCCGCGCACCACTCCTCGCAACTCAGGGTCAAGTTACATACCCCATGTTATTGATCGCTAACTGGACTAGGTCAAGTTGGCTATCGTAGCTTGTGACCAGTCACCACAACGGGCGGCCATAATAACCTT
+direction: 1
+------------------------
+str1: GCATTTATATGCATGCGAGACTGGGGAGACT
+str2: AGCATTTGAGCAATGAAAGGGCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAACTGGGTGGTCTGTCGTATGTTATTTCGGTCAAGTTACATACCCCATGTTATTGATCGCTTACGAGTTGGGGGCATTTATATGCATGCGAGACTGGGGAGACT
+direction: 2
+------------------------
+str1: CATGTTATTGATCGCTGCAGTTGCCAACGTG
+str2: GATAAAGCAACCCTTAAGGACCAGCCGCGCACCACTCCTCGCAATCCCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAATACGCCGGTAACGATACGGTTGGTTCGCGGTCAAGTTACATACCCCATGTTATTGATCGCTGCAGTTGCCAACGTG
+direction: 2
+------------------------
+>> Test passed!
+------------------------
+
+C:\WorkZone\ZedBoard\swater_4\solution1\sim\verilog>set PATH= 
+
+C:\WorkZone\ZedBoard\swater_4\solution1\sim\verilog>call C:/Xilinx/Vivado/2020.1/bin/xelab xil_defaultlib.apatb_compute_matrices_top glbl -prj compute_matrices.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile "C:/Xilinx/Vivado/2020.1/data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s compute_matrices -debug wave 
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2020.1/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_compute_matrices_top glbl -prj compute_matrices.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile C:/Xilinx/Vivado/2020.1/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s compute_matrices -debug wave 
+Multi-threading is on. Using 6 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/AESL_axi_master_gmem0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_gmem0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/AESL_axi_master_gmem1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_gmem1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/AESL_axi_slave_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_compute_matrices_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices_bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices_bkb_ram
+INFO: [VRFC 10-311] analyzing module compute_matrices_bkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices_control_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices_cud.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices_cud
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices_gmem0_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_read
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem0_m_axi_write
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices_gmem1_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_read
+INFO: [VRFC 10-311] analyzing module compute_matrices_gmem1_m_axi_write
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.compute_matrices_control_s_axi
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_thr...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_reg...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_buf...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_wri...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_buf...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_reg...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi_rea...
+Compiling module xil_defaultlib.compute_matrices_gmem0_m_axi(NUM...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_thr...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_reg...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_buf...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_fif...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_wri...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_buf...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_reg...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi_rea...
+Compiling module xil_defaultlib.compute_matrices_gmem1_m_axi(NUM...
+Compiling module xil_defaultlib.compute_matrices_bkb_ram
+Compiling module xil_defaultlib.compute_matrices_bkb(DataWidth=6...
+Compiling module xil_defaultlib.compute_matrices_cud(ID=1,din64_...
+Compiling module xil_defaultlib.compute_matrices
+Compiling module xil_defaultlib.AESL_axi_master_gmem0
+Compiling module xil_defaultlib.AESL_axi_master_gmem1
+Compiling module xil_defaultlib.AESL_axi_slave_control
+Compiling module xil_defaultlib.apatb_compute_matrices_top
+Compiling module work.glbl
+Built simulation snapshot compute_matrices
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/xsim.dir/compute_matrices/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/xsim.dir/compute_matrices/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 11 02:33:48 2021. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 11 02:33:48 2021...
+
+****** xsim v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/compute_matrices/xsim_script.tcl
+# xsim {compute_matrices} -autoloadwcfg -tclbatch {compute_matrices.tcl}
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source compute_matrices.tcl
+## log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set cinoutgroup [add_wave_group "C InOuts" -into $designtopgroup]
+## set string1_g_V__string2_g_V__direction_matrix_g_V__return_group [add_wave_group string1_g_V__string2_g_V__direction_matrix_g_V__return(axi_slave) -into $cinoutgroup]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/interrupt -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_BRESP -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_BREADY -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_BVALID -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_RRESP -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_RDATA -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_RREADY -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_RVALID -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_ARREADY -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_ARVALID -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_ARADDR -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_WSTRB -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_WDATA -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_WREADY -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_WVALID -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_AWREADY -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_AWVALID -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/s_axi_control_AWADDR -into $string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set direction_matrix_g_group [add_wave_group direction_matrix_g(axi_master) -into $coutputgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $direction_matrix_g_group]
+## set wdata_group [add_wave_group "Write Channel" -into $direction_matrix_g_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $direction_matrix_g_group]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_BUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_BID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_BRESP -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_BREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_BVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RRESP -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RDATA -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_RVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARREGION -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARQOS -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARPROT -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARCACHE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARLOCK -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARBURST -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARSIZE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARLEN -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARADDR -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_ARVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WSTRB -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WDATA -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_WVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWREGION -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWQOS -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWPROT -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWCACHE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWLOCK -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWBURST -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWSIZE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWLEN -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWADDR -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem1_AWVALID -into $ctrl_group -color #ffff00 -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set string1_g__string2_g_group [add_wave_group string1_g__string2_g(axi_master) -into $cinputgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $string1_g__string2_g_group]
+## set wdata_group [add_wave_group "Write Channel" -into $string1_g__string2_g_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $string1_g__string2_g_group]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_BUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_BID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_BRESP -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_BREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_BVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RRESP -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RDATA -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_RVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARREGION -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARQOS -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARPROT -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARCACHE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARLOCK -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARBURST -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARSIZE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARLEN -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARADDR -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_ARVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WSTRB -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WDATA -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_WVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWREGION -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWQOS -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWPROT -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWCACHE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWLOCK -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWBURST -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWSIZE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWLEN -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWADDR -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/m_axi_gmem0_AWVALID -into $ctrl_group -color #ffff00 -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake(internal)" -into $designtopgroup]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_done -into $blocksiggroup
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_idle -into $blocksiggroup
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_ready -into $blocksiggroup
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_start -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_rst_n -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_compute_matrices_top/AESL_inst_compute_matrices/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_compute_matrices_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_compute_matrices_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_compute_matrices_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_compute_matrices_top/LENGTH_gmem0 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_compute_matrices_top/LENGTH_gmem1 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_compute_matrices_top/LENGTH_string1_g_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_compute_matrices_top/LENGTH_string2_g_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_compute_matrices_top/LENGTH_direction_matrix_g_V -into $tb_portdepth_group -radix hex
+## set tbcinoutgroup [add_wave_group "C InOuts" -into $testbenchgroup]
+## set tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group [add_wave_group string1_g_V__string2_g_V__direction_matrix_g_V__return(axi_slave) -into $tbcinoutgroup]
+## add_wave /apatb_compute_matrices_top/control_INTERRUPT -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_BRESP -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_BREADY -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_BVALID -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_RRESP -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_RDATA -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_RREADY -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_RVALID -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_ARREADY -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_ARVALID -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_ARADDR -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_WSTRB -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_WDATA -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## add_wave /apatb_compute_matrices_top/control_WREADY -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_WVALID -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_AWREADY -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_AWVALID -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/control_AWADDR -into $tb_string1_g_V__string2_g_V__direction_matrix_g_V__return_group -radix hex
+## set tbcoutputgroup [add_wave_group "C Outputs" -into $testbenchgroup]
+## set tb_direction_matrix_g_group [add_wave_group direction_matrix_g(axi_master) -into $tbcoutputgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $tb_direction_matrix_g_group]
+## set wdata_group [add_wave_group "Write Channel" -into $tb_direction_matrix_g_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $tb_direction_matrix_g_group]
+## add_wave /apatb_compute_matrices_top/gmem1_BUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_BID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_BRESP -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_BREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_BVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RRESP -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RDATA -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_RVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARREGION -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARQOS -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARPROT -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARCACHE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARLOCK -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARBURST -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARSIZE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARLEN -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARADDR -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_ARVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WSTRB -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WDATA -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_WVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWREGION -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWQOS -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWPROT -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWCACHE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWLOCK -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWBURST -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWSIZE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWLEN -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWADDR -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem1_AWVALID -into $ctrl_group -color #ffff00 -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_string1_g__string2_g_group [add_wave_group string1_g__string2_g(axi_master) -into $tbcinputgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $tb_string1_g__string2_g_group]
+## set wdata_group [add_wave_group "Write Channel" -into $tb_string1_g__string2_g_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $tb_string1_g__string2_g_group]
+## add_wave /apatb_compute_matrices_top/gmem0_BUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_BID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_BRESP -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_BREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_BVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RRESP -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RDATA -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_RVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARUSER -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARREGION -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARQOS -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARPROT -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARCACHE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARLOCK -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARBURST -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARSIZE -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARLEN -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARID -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARADDR -into $rdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_ARVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WSTRB -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WDATA -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_WVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWUSER -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWREGION -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWQOS -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWPROT -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWCACHE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWLOCK -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWBURST -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWSIZE -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWLEN -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWID -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWADDR -into $wdata_group -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_compute_matrices_top/gmem0_AWVALID -into $ctrl_group -color #ffff00 -radix hex
+## save_wave_config compute_matrices.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 10 [0.00%] @ "125000"
+// RTL Simulation : 1 / 10 [0.00%] @ "3005000"
+// RTL Simulation : 2 / 10 [0.00%] @ "5905000"
+// RTL Simulation : 3 / 10 [0.00%] @ "8805000"
+// RTL Simulation : 4 / 10 [0.00%] @ "11705000"
+// RTL Simulation : 5 / 10 [0.00%] @ "14605000"
+// RTL Simulation : 6 / 10 [0.00%] @ "17505000"
+// RTL Simulation : 7 / 10 [0.00%] @ "20405000"
+// RTL Simulation : 8 / 10 [0.00%] @ "23305000"
+// RTL Simulation : 9 / 10 [0.00%] @ "26205000"
+// RTL Simulation : 10 / 10 [100.00%] @ "29105000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 29145 ns : File "C:/WorkZone/ZedBoard/swater_4/solution1/sim/verilog/compute_matrices.autotb.v" Line 590
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue May 11 02:34:00 2021...
+>> Start test!
+------------------------
+str1: CCGAGAAGCGGAGGTGGGCGTCAGAGGCTAC
+str2: ACCTCATCACACATTAACGTGGCCTCCTAGCCAGCCGCGCACCACTGGTCAAGTTACATACCCCATGTTATTGACCTCGCAACTCAGGACCGAACGGCCCCACGTTCGTCCTACAGGTGCTGCGTCAACCGAGAAGCGGAGGTGGGCGTCAGAGGCTAC
+direction: 2
+------------------------
+str1: TCATGAGAGAGGGAAGGAACTCCCTAATGCG
+str2: CACCTCGATTCCAGCCGCGCACCACTCCTCGGTCAAGTTACATACCCCATGTTATTGAGCAACTCAGGACCGAATGGTCATACCACAGAGGCTACATAATAATGAACCTGGCTAGTCTACAGCTACTTTCATGAGAGAGGGAAGGAACTCCCTAATGCG
+direction: 0
+------------------------
+str1: GCCATACTTACCCACGCGGCCAGTCCCGCTA
+str2: AGTTCCGCTACTTGCACTCCCTAATGCGGTACCAGCCGCGCACCACTCCTCGCAACTCGGTCAAGTTACATACCCCATGTTATTGAAGGACCGAACTACCAGAGCTTAGACTCAGAGTGAGGAACAATGCCATACTTACCCACGCGGCCAGTCCCGCTA
+direction: 2
+------------------------
+str1: AGGACCGAAATCGAAATGGCTGGGATAAATC
+str2: GTTTACTAATGGTCCGGCCAGTCCCGCTATTAGGACGGGGGTCAAGTTACATACCCCATGTTATTGATCGCTTGTACCGGGTGCCGGGGGCTATGTAACGACCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAAATCGAAATGGCTGGGATAAATC
+direction: 2
+------------------------
+str1: TTGGGCCACCCGCATGGCGGGTGCGCATGCC
+str2: CCAGGCTAGGAAGTGATAATAACTACTTGCACTCCCTAATGCTCTCAAACTGCCCAGCCGCGCACCACTCCTCGCAACTCAGGAGGTCAAGTTACATACCCCATGTTATTGATCGCTTAATCAGAGGATTGGGCCACCCGCATGGCGGGTGCGCATGCC
+direction: 1
+------------------------
+str1: CCATGTTATTGATCGCTAAACAGCAAAGTCC
+str2: AAACCCTCGTTCCACGTGCGCATGCCACCTCGGGTCCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAAGTTGGCCAGTCCCAATTGGTCTGTCGTGCTCCGCTTGGTGGGTCAAGTTACATACCCCATGTTATTGATCGCTAAACAGCAAAGTCC
+direction: 1
+------------------------
+str1: GCGCACCACTCCTCGCAACTCAGGACCGAAC
+str2: GCAGTAAATGAAAGGGCTGGGATAAATCGGTCAAGTTACATACCCCATGTTATTGATCGCTAACTGAGAAAGAGCCCCGCCGGATGATACTAAGCCATGGTTCATCACACATTAACCTGCGTCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAAC
+direction: 1
+------------------------
+str1: AGTCACCACAACGGGCGGCCATAATAACCTT
+str2: TCTCTGACAAAACGTTCTCAGTGCGTCCCAGCCGCGCACCACTCCTCGCAACTCAGGGTCAAGTTACATACCCCATGTTATTGATCGCTAACTGGACTAGGTCAAGTTGGCTATCGTAGCTTGTGACCAGTCACCACAACGGGCGGCCATAATAACCTT
+direction: 1
+------------------------
+str1: GCATTTATATGCATGCGAGACTGGGGAGACT
+str2: AGCATTTGAGCAATGAAAGGGCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAACTGGGTGGTCTGTCGTATGTTATTTCGGTCAAGTTACATACCCCATGTTATTGATCGCTTACGAGTTGGGGGCATTTATATGCATGCGAGACTGGGGAGACT
+direction: 2
+------------------------
+str1: CATGTTATTGATCGCTGCAGTTGCCAACGTG
+str2: GATAAAGCAACCCTTAAGGACCAGCCGCGCACCACTCCTCGCAATCCCCAGCCGCGCACCACTCCTCGCAACTCAGGACCGAATACGCCGGTAACGATACGGTTGGTTCGCGGTCAAGTTACATACCCCATGTTATTGATCGCTGCAGTTGCCAACGTG
+direction: 2
+------------------------
+>> Test passed!
+------------------------

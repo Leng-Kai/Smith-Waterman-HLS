@@ -1,0 +1,5 @@
+   Build using "C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/bin/g++"
+   Compiling apatb_compute_matrices.cpp
+   Compiling testbench.cpp_pre.cpp.tb.cpp
+   Compiling swater.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe
